@@ -1,4 +1,4 @@
-let randomNumber = Math.floor(Math.random() * 2) + 1;
+let randomNumber = Math.floor(Math.random() * 100) + 1;
 
 function checkGuess() {
     const inputElement = document.getElementById("guess");
